@@ -17,7 +17,7 @@ Engine-agnostic save/load system for games with multiple storage backends.
 
 🛠️ Technologies Used
 
-- C# (.NET 7)
+- C# (.NET 9)
 - Newtonsoft.Json
 - System.Data.SQLite
 - Async/Await Pattern
