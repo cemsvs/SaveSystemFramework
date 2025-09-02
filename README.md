@@ -15,6 +15,17 @@ Engine-agnostic save/load system for games with multiple storage backends.
 - 📊 **Save Metadata Management**
 - 🎯 **Engine Agnostic Design**
 
+🛠️ Technologies Used
+
+- C# (.NET 7)
+- Newtonsoft.Json
+- System.Data.SQLite
+- Async/Await Pattern
+
+📧 Contact:
+hayricemsivas@gmail.com
+Created for internship applications - feel free to explore the code!
+
 ## 🚀 Quick Start
 
 ```csharp
@@ -34,3 +45,5 @@ await saveManager.SaveAsync("save1", playerData);
 
 // Load
 var loaded = await saveManager.LoadAsync<PlayerSaveData>("save1");
+
+
